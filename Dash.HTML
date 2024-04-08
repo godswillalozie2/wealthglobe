@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      DASHBOARD
+    </title>
+
+
+    <meta charset="UTF-8">
+
+
+    <link rel="header" href="https://header.html">
+    <link rel="footer" href="https://footer.html">
+    <link href="Dashboard.php">
+
+
+
+    <style>
+
+    body{background-color:royalblue;}
+
+
+      #header{background-color:violet; border-radius:5px; width:550px; margin-left:500px; height:30px; }
+      #btn{font-family: Times New Roman; font-size:15px;  color:royalblue; display:inline-block; cursor:pointer; background-color: royalblue; color:white; border-width:5px; border-radius:5px; border-color:white; }
+      #btn:hover{background-color: white; color:royalblue;}
+
+      
+      #drop-btn{background-color: royalblue; color:white; cursor:pointer; font-size: 15px; border-width:5px; border-radius:5px; border-color:white;} 
+      #drop-btn:hover{background-color: white; color:royalblue;}  
+
+      #drop-btn1{background-color: royalblue; color:white; cursor:pointer; font-size: 35px; display:block; margin-left:550px; margin-top:80px; margin-bottom:80px; border-width:5px; border-color:violet; border-radius:8px;} 
+      #drop-btn1:hover{background-color: white; color:royalblue;}  
+
+
+      h1{
+        display:inline-block;  color:white; text-align:center; margin-left:550px;
+      }
+
+      #btn2{font-family: Times New Roman; font-size:30px;  color:royalblue; display:block; cursor:pointer; background-color: royalblue; color:white; border-width:5px; border-radius:5px; border-color:white; text-decoration:none; margin-bottom: 50px; margin-left:600px; } 
+      #btn2:hover{background-color: white; color:royalblue;}
+
+      
+    
+      #text{display:inline-block;font-family:Times New Romans; font-size:25px; text-align:left; margin-left:10px; color:royalblue;}
+      #email{background-color:royalblue; border-width:5px; border-color:white; border-radius:5px; color:white; font-size:22px;}
+      #email:hover{background-color:white; color:violet;}
+      #GetCoupon{background-color:royalblue; color:violet; border-radius:3px; border-color:white; border-width:3px; font-size:22px; font-family:Times New Roman; margin-left:150px; margin-top:50px;}
+      #GetCoupon:hover{background-color:white; color:royalblue;}
+
+      #footer{background-color:violet; border-radius:5px; width:550px; margin-left:500px; height:50px; margin-bottom:10px; margin-top:20px;}
+      #text3{font-family: Times New Roman; font-size:20px;  color:royalblue; display:inline-block;  margin-left:20px; margin-right:20px; cursor:pointer; text-decoration:none;} 
+      #text3:hover{color: white;} 
+
+    </style>
+  </head>
+  <body>
+ 
+  
+  <special-header></special-header>
+      <header id="header" style="padding:8px;">
+        <header-btn style="display:flex; justify-content:space-around;">
+          <a href="Profile.php" id="text1" method="post">
+            <button id="btn" value="button" type="submit">
+            Profile
+           </button>
+         </a>  
+
+         <a href="Account.html" id="text1" method="post">
+          <button id="btn" value="button" type="submit">
+          Account
+         </button>
+       </a>  
+       
+           <a href="logout.php" id="text1" method="post">
+             <button id="btn" value="button" type="submit">
+             Log Out
+            </button>
+          </a>  
+        </header-btn>
+    </header>
+
+
+    <main>
+      <h1>
+        Welcome To Your Dashboard
+      </h1>
+    </main>
+
+  <div>
+    <a href="SP 3000.html" id="text1">
+       <button id="btn2" value="button">
+           SILVER PACKAGE 3000
+       </button>
+   </a>  
+   <a href="GP 5000.html" id="text1">
+      <button id="btn2" value="button">
+           GOLD PACKAGE 5000
+        </button>
+    </a>  
+    <a href="DP 10000.html" id="text1">
+         <button id="btn2" value="button">
+            DIAMOND PACKAGE 10000
+         </button>
+     </a>  
+    </div>
+   
+   
+    <div>
+      <special-footer></special-footer>
+      <footer type="footer" id="footer">
+        <p style="display:flex; justify-content:space-around;">
+             <a href="About Us.html" id="text3">About Us</a>
+             <a href="Terms and Conditions.html" id="text3">Terms and Conditions</a>
+             <a href="Privacy Policy.html" id="text3">Policy</a>
+             <a href="Contact A Vendor.html"  id="text3">Contact A Vendor</a>
+          </p>
+       </footer>
+    </div>
+
+  </body>
+</html>

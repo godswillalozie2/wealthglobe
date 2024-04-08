@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      GET COUPON CODE
+    </title>
+
+
+    <meta charset="UTF-8">
+
+
+    <link rel="header" href="https://header.html">
+    <link rel="footer" href="https://footer.html">
+    <link href="generate_coupon.php">
+
+
+
+    <style>
+
+      body{background-color: royalblue;}
+
+
+      #header{background-color:violet; border-radius:5px; width:550px; margin-left:470px; height:30px;}
+      #text1{font-family: Times New Roman; font-size:20px;  color:royalblue; display:inline-block;  margin-left:20px; margin-right:20px; cursor:pointer; text-decoration:none;}
+      #text1:hover{color: white;}
+
+
+     
+      #form-box{background-color:violet; width:400px; height:350px; border-width:5px; border-color:royalblue; border-radius:5px; margin-left:520px; margin-top:60px; padding:20px; margin-bottom:60px;}
+
+      #text2{font-family:Times New Romans; font-size:25px; text-align:center; margin-left:40px; display:block; color:royalblue;}
+      #text{display:inline-block;font-family:Times New Romans; font-size:25px; text-align:left; margin-left:10px; color:royalblue;}
+      #email{background-color:royalblue; border-width:5px; border-color:white; border-radius:5px; color:white; font-size:22px;}
+      #email:hover{background-color:white; color:violet;}
+      #GetCoupon{background-color:royalblue; color:violet; border-radius:3px; border-color:white; border-width:3px; font-size:22px; font-family:Times New Roman; margin-left:150px; margin-top:50px;}
+      #GetCoupon:hover{background-color:white; color:royalblue;}
+
+
+     #footer{background-color:violet; border-radius:5px;
+     width:550px; margin-left:470px; margin-right:470px; height:30px; margin-bottom:10px;}
+     #text3{font-family: Times New Roman; font-size:20px;    color:royalblue; display:inline-block;  margin-left:20px; margin-right:20px; cursor:pointer; text-decoration:none;} 
+     #text3:hover{color: white;} 
+
+     
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <special-header></special-header>
+      <header id="header">
+        <p style="display:flex; justify-content:space-around;">
+        <a href="HOME.html" id="text1">Home</a>
+        <a href="SIGNUP.html" id="text1">Sign Up</a>
+        <a href="LOGIN.html" id="text1">Log In</a>
+        </p>
+    </header>
+  </div>
+    
+    <div>
+      <form id="form-box" action="generate_coupon.php" method="POST">
+        <h1 id="text2">GET COUPON CODE</h1><br><br>
+        <label id="text">Email</label>
+        <input type="email" id="email" placeholder="enter your email" required><br><br>
+        <button id="GetCoupon"   type="submit">GetCoupon</button>
+      </form>
+    </div>
+    
+    <div>
+      <special-footer></special-footer>
+      <footer type="footer" id="footer">
+        <p style="display:flex; justify-content:space-around;">
+          <a href="About Us.html" id="text3">About Us</a>
+          <a href="terms and Conditions.html" id="text3">Terms and Conditions</a>
+          <a href="Privacy Policy.html" id="text3"> Privacy Policy</a>
+          </p>
+      </footer>
+    </div>
+    
+  </body>
+</html>

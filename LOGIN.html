@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Log In
+    </title>
+
+    <meta charset="UTF-8">
+
+
+    <link rel="header" href="https://header.html">
+    <link rel="footer" href="https://footer.html">
+    <link rel="login" href="https://login.php">
+
+    <style>
+    body{background-color: royalblue;}
+
+    #header{background-color:violet; border-radius:5px; width:550px; margin-left:470px; margin-right:470px; height:30px;}
+    #text1{font-family: Times New Roman; font-size:20px;  color:royalblue; display:inline-block;  margin-left:20px; margin-right:20px; cursor:pointer; text-decoration:none;}
+    #text1:hover{color: white;}
+
+     
+    #box{background-color:violet; border-width:10px; border-color:white; background-position: center; width:400px; height:400px; padding:30px; margin-left:530px; margin-bottom:40px; margin-top:70px;}
+
+
+    #text{height:40px; width:300px; background-color:white; color:white; border-width:5px; border-color:royalblue; font-size:20px; font-family:arial; margin-top:0px; margin-left:40px;}
+    #text:hover{background-color: royalblue; color:violet;}
+
+    #text4{font-family:Times New Roman; font-size:30px; color:white; margin-left:100px; margin-bottom:0px;}
+
+    #User{font-family:Times New Roman; font-size:30px; color:white; margin-left:100px; margin-top:20px;}
+
+    #heading{font-family:Times New Roman; font-size:30px; color:royalblue; margin-left:120px; margin-top:5px; margin-bottom:20px;}
+
+
+
+      
+    #Aphanumeric{height:40px; width:300px; background-color:white; color:violet; border-width:5px; border-color:royalblue; font-size:30px; font-family:arial; margin-top:0px; margin-left:40px;}
+    #Aphanumeric:hover{background-color: royalblue; color:white;}
+
+    #button{background-color:white; border:solid; border-width:5px; border-radius:15px; color:violet;font-size:30px; border-color:royalblue; cursor:pointer; margin-left:130px;}
+    #button:hover{background-color:royalblue; transition:2s;}
+
+    #text2{color:royalblue; text-decoration:none;font-size:30px; margin-left:150px;}
+    #text2:hover{color:white;}
+
+    #footer{background-color:violet; border-radius:5px;
+    width:550px; margin-left:470px; margin-right:470px; height:30px; margin-bottom:10px;}
+    #text3{font-family: Times New Roman; font-size:20px;  color:royalblue; display:inline-block;  margin-left:20px; margin-right:20px; cursor:pointer; text-decoration:none;} 
+    #text3:hover{color: white;} 
+
+
+
+     
+    </style>
+  </head>
+  <body>
+
+  <div>
+    <special-header></special-header>
+    <header id="header">
+      <p style="display:flex; justify-content:space-around;">
+      <a href="HOME.html" id="text1">Home</a>
+      <a href="SIGNUP.html" id="text1">Sign Up</a>
+      <a href="LOGIN.html" id="text1">Log In</a>
+      </p>
+  </header>
+</div>
+
+    <div id="box">
+    <form id="login-form" method="POST" action="login.php">
+      <h1 id="heading">Login In</h1>
+
+      <label id="text4">Coupon Code</label><br><br>
+      <input id="Aphanumeric"   type="Couponcode" name="Coupon_code" placeholder="coupon" required> <br><br> 
+
+      <label id="User">Password</label><br><br>
+      <input  id="text" type="password"  name="password"   placeholder="password" required> <br><br>
+
+      <button type="submit" value="submit" id="button">Login In</button><br><br>
+
+      <a id="text2" href="SIGNUP.html"> Signup</a><br><br>
+    </form>
+    </div>
+    
+  <div>
+    <special-footer></special-footer>
+    <footer type="footer" id="footer">
+      <p style="display:flex; justify-content:space-around;">
+        <a href="About Us.html" id="text3">About Us</a>
+        <a href="terms and Conditions.html" id="text3">Terms and Conditions</a>
+        <a href="Privacy Policy.html" id="text3"> Privacy Policy</a>
+        </p>
+    </footer>
+  </div>
+
+
+  </body>
+</html>
